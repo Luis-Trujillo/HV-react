@@ -1,0 +1,55 @@
+/*estilos del header*/
+.app__header{
+    width: 100%;
+    min-height: auto;
+}
+.header__navbar{
+    width: 100%;
+    height: auto;
+}
+/*estilos del navbar*/
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbar__photo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar__photo-image{
+    width: 150px;
+    height: 100;
+    border-radius: 50px;
+}
+
+.navbar__links {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    margin-right: 5cm;
+}
+
+.navbar__links li {
+    padding-right: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar__links a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar__links a:hover {
+    color: #ffcc00;
+}
