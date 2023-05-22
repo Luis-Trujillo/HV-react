@@ -21,7 +21,7 @@
     font-family: 'Lora', serif;
     text-align: justify;
     color: #0E3569;
-    padding: 0 0 0.5cm 1.2cm;
+    padding: 0 0 1cm 1.2cm;
 }
 
 .dotted-hr {
@@ -31,12 +31,13 @@
     margin: 10px auto;
 }
 
-.left-side__contact{
-    padding: 0 0 0.5cm 0;
+.left-side__contact {
+    padding: 0 0 1cm 1.2cm;
 }
 
 .left-side__button {
-    background-color: #0E3569;;
+    background-color: #0E3569;
+    ;
     color: #EFEFEF;
     border: none;
     border-radius: 5px;
@@ -45,12 +46,12 @@
     font-family: 'Lora', serif;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    
+
 }
 
 .left-side__button:hover {
     background-color: #ff9933;
-  }
+}
 
 /*Referencias*/
 .left-side__references {
