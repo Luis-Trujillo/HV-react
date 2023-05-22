@@ -1,4 +1,52 @@
 .main__right-side {
     flex: 65%;
-    background-color: #1115f0;
+    background-color: white;
+}
+
+.right-side__tile {
+    text-align: justify;
+    padding-left: 1.2cm;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    color: #0E3569;
+}
+
+.right-side__h3 {
+    text-align: justify;
+    padding-left: 1.2cm;
+    font-family: 'Lora', serif;
+    color: #0E3569;
+}
+
+.right-side__icon {
+    padding-right: 0.5cm;
+    font-size: 25px;
+    color: #0E3569;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side__p {
+    width: 60%;
+    height: auto;
+    font-family: 'Lora', serif;
+    padding-left: 1.2cm;
+    text-align: justify;
+    color: #0E3569;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0;  
+}
+
+.right-side__list-skills{
+    justify-content: center;
+    padding-left: 1.7cm;
+}
+
+.right-side__list-skills li{
+    color: #0E3569;
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    text-align: justify;
 }
