@@ -1,0 +1,78 @@
+.main__left-side {
+    flex: 35%;
+    background-color: #EFEFEF;
+}
+
+/*esilos de about me*/
+.left-side__about-Me {
+    width: 90%;
+    height: auto;
+
+}
+
+.left-side__title {
+    text-align: justify;
+    padding-left: 1.2cm;
+    font-family: 'Lora', serif;
+    color: #0E3569;
+}
+
+.left-side__paragraph {
+    font-family: 'Lora', serif;
+    text-align: justify;
+    color: #0E3569;
+    padding: 0 0 0.5cm 1.2cm;
+}
+
+.dotted-hr {
+    width: 80%;
+    border: none;
+    border-top: 5px dotted #0E3569;
+    margin: 10px auto;
+}
+
+.left-side__contact{
+    padding: 0 0 0.5cm 0;
+}
+
+.left-side__button {
+    background-color: #0E3569;;
+    color: #EFEFEF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.left-side__button:hover {
+    background-color: #ff9933;
+  }
+
+/*Referencias*/
+.left-side__references {
+    width: 90%;
+    height: auto;
+}
+
+.left-side__p {
+    width: 60%;
+    height: auto;
+    font-family: 'Lora', serif;
+    padding-left: 1.2cm;
+    text-align: justify;
+    color: #0E3569;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side__icon {
+    padding-right: 0.5cm;
+    font-size: 20px;
+    color: #0E3569;
+    justify-content: center;
+    align-items: center;
+}
