@@ -8,7 +8,8 @@ export const Navbar = () => {
     return (
         <div className='header__navbar'>
             <nav className="navbar">
-            <div className="navbar__photo"><img className='navbar__photo-image' src={Photo} alt='Profile' /></div>
+                <div className="navbar__photo"><img className='navbar__photo-image' src={Photo} alt='Profile' /></div>
+                <h1 className='navbar__name'>Luis Trujillo </h1>
                 <ul className="navbar__links">
                     <li><a href="/">Inicio</a></li>
                     <li><a href='/sobre-mi'>Sobre mi</a></li>
