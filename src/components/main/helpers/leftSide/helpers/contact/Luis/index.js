@@ -15,7 +15,7 @@ const Contact = ({ title, celPhone, email, address }) => {
             <p className='left-side__p'> <ImLocation2 className='left-side__icon'/>
                 Dirección: {address.cra} {address.number}, {address.barrio}
             </p>
-            <button className='left-side__button'>Escríbeme</button>
+            
         </div>
     );
 };

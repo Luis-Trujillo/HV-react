@@ -7,13 +7,14 @@ import { Footer } from './components/footer';
 //Se importan estilos
 import './components/header/styles/header.css';
 import './components/main/styles/main.css';
+import './components/footer/styles/footer.css';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <Main/>
-      <Footer/>
+      <Footer className='app__footer'/>
     </div>
   );
 }

@@ -1,0 +1,40 @@
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1cm;
+    box-sizing: border-box;
+    
+
+}
+
+.social-media__link {
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-right: 0.5cm;
+    text-decoration: none;
+    color: #0e0e0e;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-media__icon{
+    padding-right: 0.5cm;
+}
+
+.social-media__link--facebook:hover {
+    color: #1877f2;
+}
+
+.social-media__link--twitter:hover {
+    color: #1da1f2;
+}
+
+.social-media__link--instagram:hover {
+    color: #c32aa3;
+}
+
+.social-media__link--whatsapp:hover {
+    color:  #00bb2d;
+}

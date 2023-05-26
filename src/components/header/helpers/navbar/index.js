@@ -18,7 +18,6 @@ export const Navbar = () => {
                     <li><a href="/educacion">Educación</a></li>
                     <li><a href='/idiomas'>Idiomas</a></li>
                     <li><a href="/habilidades">Habilidades</a></li>
-                    <li><a href='/cursos'>Cursos</a></li>
                     <li><a href="/contacto">Contacto</a></li>
                 </ul>
             </nav>
